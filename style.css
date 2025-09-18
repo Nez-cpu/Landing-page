@@ -1,12 +1,12 @@
 /* Reset some default browser styles */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     line-height: 1.6;
 }
 /* Hero section layout */
@@ -16,15 +16,23 @@ body {
     align-items: center;
     justify-content: center;
     height: 80vh; /* fills most of the viewport height */
-    text-align: center;
-    background-color: #f2f2f2; /* placeholder, use your design color */
+    text-align: right;
+    background-color: #1F2937; /* placeholder, use dark blue */
+}
+
+/* Button color, sign up for us please layout */
+.sign up for us please {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #3882F6
 }
 
 .section1, .section2, .section3 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 50px 20px;
+    align-items: right;
+    padding: 50px 50px;
+    background color:#3882F6; /*  placeholder, use designated color*/
 }
 
 footer {
@@ -32,5 +40,5 @@ footer {
     justify-content: center;
     padding: 20px;
     background-color: #333;
-    color: white;
+    color: carmine;
 }
